@@ -3,5 +3,6 @@ Neste trabalho foi desenvolvido um detector de objetos utilizando os modelos Res
 A técnica de amostragem utilizada foi o holdout, com 80% do conjunto de dados pertencendo ao treinamento e 20% ao teste. 
 O otimizador utilizado foi o gradiente descendente estocástico com uma taxa de aprendizado de 0.01, um momento de 0.9 e um peso de decaimento de 0.0005.
 A métrica de acurácia utilizada foi o Pascal Voc Evaluation.
+Foi também utilizada uma técnica de Early Stopping durante o treinamento, isso para evitar um over fitting.
 
 
